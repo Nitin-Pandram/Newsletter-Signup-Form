@@ -1,0 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    
+    html,body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+height: 100%;
+width: 100%;
+font-family: Arial, sans-serif;
+ background-color: #2ddbee;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+}
+
+.signup-form {
+
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    animation: slideIn 1s ease-out;
+}
+
+.signup-form h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.signup-form p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b78ca;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
